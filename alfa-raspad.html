@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa raspad</title>
+    <link rel="stylesheet" href="style-alfa.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="back-button">&larr;</a>
+            <h1>Alfa raspad (Sunce)</h1>
+        </header>
+        <p class="description">
+            Alfa raspad je tip radioaktivnog raspada kod kojeg nestabilno jezgro atoma oslobađa alfa česticu, 
+            koja se sastoji od dva protona i dva neutrona (osnovni oblik jezgra helijuma). Ovaj proces smanjuje 
+            maseni broj jezgra za 4 i atomski broj za 2, čime atom prelazi u drugi, lakši hemijski element.
+        </p>
+        <div class="video-box">
+            <span class="video-text">video</span>
+        </div>
+        <button class="next-button">Dalje</button>
+    </div>
+
+    <div class="exit-popup" id="exitPopup">
+        <strong>Da li ste sigurni da želite da izađete?</strong>
+        <p>Ako izađete, izgubićete sav napredak.</p>
+        <button onclick="exitPage()">Da</button>
+        <button onclick="closePopup()">Ne</button>
+    </div>
+    
+    <script>
+        document.querySelector(".back-button").addEventListener("click", function(event) {
+            event.preventDefault();
+            document.getElementById("exitPopup").style.display = "block";
+        });
+    
+        function closePopup() {
+            document.getElementById("exitPopup").style.display = "none";
+        }
+    
+        function exitPage() {
+            window.location.href = "index.html"; 
+        }
+    </script>
+    
+</body>
+</html>

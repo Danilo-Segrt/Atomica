@@ -1,0 +1,109 @@
+body {
+    background-color: #020118;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #13132A;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+h1 {
+    font-size: 18px;
+    flex-grow: 1;
+}
+.description {
+    font-size: 14px;
+    margin: 20px 0;
+}
+.video-box {
+    background-color: #E5E5E5;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video-icon {
+    background-color: brown;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.video-text {
+    font-size: 16px;
+}
+.next-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.exit-popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #020118;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.exit-popup strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.exit-popup p {
+    font-size: 14px;
+}
+.exit-popup .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.exit-popup button {
+    padding: 10px 20px;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Raspad (Sunce)</title>
+    <link rel="stylesheet" href="alfa.css">
+</head>
+<body>
+    <div class="container">
+        <button class="back-button">&#8592;</button>
+        <h2>Alfa raspad (Sunce)</h2>
+        <p class="fact">
+            Zabavna činjenica:<br>
+            Sunce čini oko 99.86% ukupne mase cijelog Sunčevog sistema! To znači da su sve planete, mjeseci, asteroidi i komete zajedno težinski prava sitnica u poređenju s njim. Impresivno, zar ne?
+        </p>
+        <div class="equation">
+            <div class="element-box">
+                <span class="number">226</span>
+                <span class="element">Ra</span>
+                <input type="text" class="input-box" id="inputRa" maxlength="3" placeholder="?">
+            </div>
+            <span>→</span>
+            <div class="element-box">
+                <input type="text" class="input-box" id="inputRn" maxlength="3" placeholder="?">
+                <span class="element">Rn</span>
+                <span class="number">86</span>
+            </div>
+            <span>+ <sup>4</sup><sub>2</sub>α</span>
+        </div>
+        <button class="check-button" id="checkBtn" disabled>Provjeri</button>
+        
+        <div class="result-container" id="resultContainer">
+            <div class="result-box correct" id="correctResult">
+                <h3>TACNO</h3>
+                <div class="result-options">
+                    <a href="#">Dalje</a>
+                
+                </div>
+            
+            </div>
+            <div class="result-box incorrect" id="incorrectResult">
+                <h3>NETACNO</h3>
+                <div class="result-options">
+                    <a href="#" id="tryAgainBtn">Pokusaj opet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
