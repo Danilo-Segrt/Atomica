@@ -7,7 +7,7 @@
   body {
     background-color: #020118;
     overflow-x: hidden;
-    font-family: 'Inria Sans', sans-serif;
+    font-family: "Inria Sans", sans-serif;
   }
   
   .galaxy-background {
@@ -97,12 +97,12 @@
   
   .stage-row.left + .connector {
     background-image: url('assets/linija.svg');
-    transform: translateX(10px) rotate(-18deg);
+    transform: translateX(10px) rotate(-10deg);
   }
   
   .stage-row.right + .connector {
     background-image: url('assets/linija2.svg');
-    transform: translateX(-10px) rotate(18deg);
+    transform: translateX(-10px) rotate(10deg);
   }
   
   .button-row {

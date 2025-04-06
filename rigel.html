@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Raspad (Sunce)</title>
+    <link rel="stylesheet" href="alfa.css">
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button class="back-button"> <img src="assets/arrow-left-solid 1.svg" alt="strelica"></button>
+        <h2>Nuklearna fuzija</h2>
+        <p class="fact">
+            Glavni niz:<br>
+            Rigel je bila izuzetno masivna plava zvijezda, koja je brzo trošila svoje gorivo. U glavnom nizu bila je mnogo sjajnija i vrelija od Sunca. Ova faza je bila vrlo kratka zbog velike mase.
+
+        </p>
+        <div class="equation">
+            <div class="element-box">
+                <span class="number">6</span>
+                <span class="element">Li</span>
+                <span class="number">3</span>
+            </div>
+            <span>+</span>
+            <div class="element-box">
+            <input type="text" class="input-box" id="inputRa" maxlength="1" placeholder="?">
+            <span class="element">H</span>
+            <span class="number">1</span>
+        </div>
+            <span>→ 2<sup>4</sup><sub>2</sub>He</span></span>
+            
+        </div>
+        <button class="check-button" id="checkBtn" disabled>Provjeri</button>
+        
+        <div class="result-container" id="resultContainer">
+            <div class="result-box correct" id="correctResult">
+              <h3>TAČNO ✔</h3>
+              <div class="result-options">
+                <div id="nextPageBtn">Dalje</div>
+              </div>
+            </div>
+            <div class="result-box incorrect" id="incorrectResult">
+              <h3>NETAČNO ✖</h3>
+              <div class="result-options">
+                <a href="#" id="tryAgainBtn">Pokušaj opet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="overlay" id="overlay"></div>
+
+    <script src="js/script18.js"></script>
+    <script src="js/transitions18.js"></script>
+</body>
+</html>
