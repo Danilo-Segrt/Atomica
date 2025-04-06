@@ -1,15 +1,25 @@
 body {
     background-color: #020118;
     color: white;
+<<<<<<< HEAD
+=======
+    font-family: Arial, sans-serif;
+>>>>>>> aafefa5b2688021ff7f0044c162009560424bc44
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+<<<<<<< HEAD
     font-family: "Inria Sans", sans-serif;
 }
 .container {
     background-color: #0B0A22;
+=======
+}
+.container {
+    background-color: #13132A;
+>>>>>>> aafefa5b2688021ff7f0044c162009560424bc44
     width: 90%;
     max-width: 400px;
     padding: 20px;
@@ -107,6 +117,7 @@ h1 {
     width: 100px;
 }
 
+<<<<<<< HEAD
 .inria-sans-light {
     font-family: "Inria Sans", sans-serif;
     font-weight: 300;
@@ -143,3 +154,5 @@ h1 {
     font-style: italic;
   }
   
+=======
+>>>>>>> aafefa5b2688021ff7f0044c162009560424bc44
