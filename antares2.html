@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Raspad (Sunce)</title>
+    <link rel="stylesheet" href="alfa.css">
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button class="back-button"> <img src="assets/arrow-left-solid 1.svg" alt="strelica"></button>
+        <h2>Bještačke transmutacije</h2>
+        <p class="fact">
+            Crveni superdžin:<br>
+            Trenutno se nalazi u ovoj fazi, sa ogromnim prečnikom i veoma niskom gustinom na površini. Njegova veličina je toliko velika da bi, da se nalazi umjesto Sunca, "progutala" unutrašnje planete. Iako izgleda mirno, unutra se odvijaju složeni fuzijski procesi.
+
+        </p>
+        <div class="equation">
+            <div class="element-box">
+                <span class="number">4</span>
+                <span class="element">He</span>
+                <span class="number">2</span>
+            </div>
+            <span>+ </span>
+            <div class="element-box">
+                <input type="text" class="input-box" id="inputRa" maxlength="1" placeholder="?">
+                <span class="element">Li</span>
+                <input type="text" class="input-box" id="inputRn" maxlength="1" placeholder="?">
+            </div>
+            
+            <span>→</span>
+
+            <div class="element-box">
+                <span class="number">10</span>
+                <span class="element">B</span>
+                <span class="number">5</span>
+            </div>
+            <span>+ <sup>1</sup><sub>0</sub>n</span>
+            
+        </div>
+        <button class="check-button" id="checkBtn" disabled>Provjeri</button>
+        
+        <div class="result-container" id="resultContainer">
+            <div class="result-box correct" id="correctResult">
+              <h3>TAČNO ✔</h3>
+              <div class="result-options">
+                <div id="nextPageBtn">Dalje</div>
+              </div>
+            </div>
+            <div class="result-box incorrect" id="incorrectResult">
+              <h3>NETAČNO ✖</h3>
+              <div class="result-options">
+                <a href="#" id="tryAgainBtn">Pokušaj opet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="overlay" id="overlay"></div>
+
+    <script src="js/script22.js"></script>
+    <script src="js/transitions22.js"></script>
+</body>
+</html>
