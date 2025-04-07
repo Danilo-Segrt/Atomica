@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const raValue = inputRa.value.trim();
         const rnValue = inputRn.value.trim();
 
-        if ((raValue === "94" && rnValue === "239") || (raValue === "2" && rnValue === "4")) {
+        if ((raValue === "94" && rnValue === "239") && (raValue === "2" && rnValue === "4")) {
             correctResult.style.display = "block";
             incorrectResult.style.display = "none";
         } else {
