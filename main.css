@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-color: #020118;
+    color: #FFFFFF;
+    font-family: "Inria Sans", sans-serif;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 16px;
+    width: 80%;
+    z-index: 2;
+}
+.dugme{
+    background-color: #f2f2f2;
+    padding: 15px 100px 15px 100px;
+    border-radius: 20px;
+    margin-top: 40%;
+}
+a{
+    color:#020118;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+}
+.sunce{
+    position: absolute;
+    top: 5%;
+    left: -20%;
+    width: 141px;
+
+}
+.rigel{
+    position: absolute;
+    top: 30%;
+    right: -20%;
+}
+.polaris{
+    position: absolute;
+    left: -30%;
+    top: 55%;
+    rotate: 21deg;
+    z-index: 1;
+}
+.antares{
+    position: absolute;
+    right: -10%;
+    top: 80%;
+}
