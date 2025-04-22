@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (nextPageBtn) {
         nextPageBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            triggerFlashTransition('bet/betnivo2.html');
+            triggerFlashTransition('betnivo2.html');
         });
     }
 
